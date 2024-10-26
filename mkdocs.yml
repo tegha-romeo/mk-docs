@@ -1,7 +1,7 @@
 # Project information
 site_name: My MkDocs Project
 site_description: 'An example MkDocs project using the Material theme'
-site_url: 'https:/tegha-romeo.github.io/mk-docs'  # Change this to your site's URL
+site_url: https://tegha-romeo.github.io/mk-docs  # Change this to your site's URL
 
 # Theme settings
 theme:
@@ -11,7 +11,8 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-
+  - Sample: sample.md
+  - multipass: multipass.md
 # Extra settings
 markdown_extensions:
   - admonition
@@ -21,5 +22,5 @@ markdown_extensions:
 
 # Repository configuration (for the edit link on pages)
 repo_name: ADORSYS-GIS/mk-docs
-repo_url: https://github.comtegha-romeo/mk-docs
+repo_url: https://github.com/tegha-romeo/mk-docs
 edit_uri: edit/main/docs/
